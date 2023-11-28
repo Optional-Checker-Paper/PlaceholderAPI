@@ -39,6 +39,7 @@ public final class Format {
   private Format() {}
 
   @NotNull
+  @SuppressWarnings("optional:optional.collection") // optional-collection : use of optional to wrap a collection
   public static Optional<List<String>> tablify(@NotNull final Align align,
       @NotNull final List<List<String>> rows) {
     return findSpacing(rows)
