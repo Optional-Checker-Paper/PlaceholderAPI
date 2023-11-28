@@ -1,10 +1,12 @@
 import com.github.jengelman.gradle.plugins.shadow.tasks.ShadowJar
+import org.checkerframework.gradle.plugin.CheckerFrameworkExtension
 
 plugins {
     `java-library`
     `maven-publish`
     id("com.github.hierynomus.license") version "0.16.1"
     id("com.github.johnrengelman.shadow") version "8.1.0"
+    id("org.checkerframework") version "0.6.35"
 }
 
 group = "me.clip"
@@ -43,6 +45,16 @@ java {
 
     withJavadocJar()
     withSourcesJar()
+}
+
+configure<CheckerFrameworkExtension> {
+    checkers = listOf(
+        "org.checkerframework.checker.optional.OptionalChecker",
+    )
+    extraJavacArgs = listOf(
+      "-AsuppressWarnings=type.anno.before.modifier,type.anno.before.decl.anno",
+      "-AassumePure"
+    )
 }
 
 license {
