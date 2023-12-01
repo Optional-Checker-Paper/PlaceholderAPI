@@ -5,6 +5,7 @@ plugins {
     `maven-publish`
     id("com.github.hierynomus.license") version "0.16.1"
     id("com.github.johnrengelman.shadow") version "8.1.0"
+    id("com.github.spotbugs") version "5.2.5"
 }
 
 group = "me.clip"
@@ -125,4 +126,16 @@ configurations {
     testImplementation {
         extendsFrom(compileOnly.get())
     }
+}
+
+spotbugs {
+     ignoreFailures.set(true)
+     toolVersion.set("4.8.2")
+     effort.set(com.github.spotbugs.snom.Effort.DEFAULT)
+     reportLevel.set(com.github.spotbugs.snom.Confidence.DEFAULT)
+     reportsDir.set(file("$buildDir/spotbugs"))
+ }
+
+ dependencies {
+    spotbugs("com.github.spotbugs:spotbugs:4.7.1")
 }
