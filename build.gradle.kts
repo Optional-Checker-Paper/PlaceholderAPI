@@ -1,10 +1,12 @@
 import com.github.jengelman.gradle.plugins.shadow.tasks.ShadowJar
+import net.ltgt.gradle.errorprone.errorprone
 
 plugins {
     `java-library`
     `maven-publish`
     id("com.github.hierynomus.license") version "0.16.1"
     id("com.github.johnrengelman.shadow") version "8.1.0"
+    id("net.ltgt.errorprone") version "3.1.0"
 }
 
 group = "me.clip"
@@ -34,6 +36,7 @@ dependencies {
 
     testImplementation("org.junit.jupiter:junit-jupiter-engine:5.8.2")
     testRuntimeOnly("org.junit.jupiter:junit-jupiter-engine:5.8.1")
+    errorprone("com.google.errorprone:error_prone_core:2.23.0")
 }
 
 
@@ -70,7 +73,13 @@ tasks {
     }
 
     withType<JavaCompile> {
-        options.encoding = "UTF-8"
+        options.errorprone.disableWarningsInGeneratedCode.set(true)
+        options.errorprone.disableAllChecks.set(true)
+        options.errorprone.enable("NullOptional", "NullableOptional",
+            "OptionalMapToOptional", "OptionalNotPresent", "OptionalEquality",
+            "OptionalMapUnusedValue", "OptionalOfRedundantMethod", "UnnecessaryOptionalGet",
+       )
+       options.encoding = "UTF-8"
     }
 
     withType<Javadoc> {
