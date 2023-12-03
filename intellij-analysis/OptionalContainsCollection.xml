@@ -1,0 +1,28 @@
+<problems>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/me/clip/placeholderapi/util/Format.java</file>
+  <line>42</line>
+  <module>PlaceholderAPI.main</module>
+  <package>me.clip.placeholderapi.util</package>
+  <entry_point TYPE="method" FQNAME="me.clip.placeholderapi.util.Format java.util.Optional&lt;java.util.List&lt;java.lang.String&gt;&gt; tablify(me.clip.placeholderapi.util.Format.Align align, java.util.List&lt;java.util.List&lt;java.lang.String&gt;&gt; rows)" />
+  <problem_class id="OptionalContainsCollection" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">'Optional' contains array or collection</problem_class>
+  <description>'Optional' contains collection &lt;code&gt;List&lt;String&gt;&lt;/code&gt;</description>
+  <highlighted_element>List&lt;String&gt;</highlighted_element>
+  <language>JAVA</language>
+  <offset>25</offset>
+  <length>12</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/me/clip/placeholderapi/util/Format.java</file>
+  <line>60</line>
+  <module>PlaceholderAPI.main</module>
+  <package>me.clip.placeholderapi.util</package>
+  <entry_point TYPE="method" FQNAME="me.clip.placeholderapi.util.Format java.util.Optional&lt;int[]&gt; findSpacing(java.util.List&lt;java.util.List&lt;java.lang.String&gt;&gt; rows)" />
+  <problem_class id="OptionalContainsCollection" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">'Optional' contains array or collection</problem_class>
+  <description>'Optional' contains array &lt;code&gt;int[]&lt;/code&gt;</description>
+  <highlighted_element>int[]</highlighted_element>
+  <language>JAVA</language>
+  <offset>26</offset>
+  <length>5</length>
+</problem>
+</problems>

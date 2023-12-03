@@ -39,6 +39,7 @@ public final class Format {
   private Format() {}
 
   @NotNull
+  @SuppressWarnings("OptionalContainsCollection") // intellij-suppression-optional-contains-collection
   public static Optional<List<String>> tablify(@NotNull final Align align,
       @NotNull final List<List<String>> rows) {
     return findSpacing(rows)
@@ -56,6 +57,7 @@ public final class Format {
         .collect(joining());
   }
 
+  @SuppressWarnings("OptionalContainsCollection") // intellij-suppression-optional-contains-collection
   @NotNull
   private static Optional<int[]> findSpacing(@NotNull final List<List<String>> rows) {
     return rows.stream()
