@@ -51,13 +51,22 @@ configure<CheckerFrameworkExtension> {
     checkers = listOf(
         "org.checkerframework.checker.optional.OptionalChecker",
     )
-    extraJavacArgs = listOf(
+    extraJavacArgs = mutableListOf(
       "-AsuppressWarnings=type.anno.before.modifier,type.anno.before.decl.anno",
       "-AassumePure",
       "-AwarnUnneededSuppressions",
       "-AassumeAssertionsAreEnabled"
     )
     excludeTests = true
+    val checkerFrameworkVersion = "3.41.1-SNAPSHOT"
+    dependencies {
+        compileOnly("org.checkerframework:checker-qual:${checkerFrameworkVersion}")
+        testCompileOnly("org.checkerframework:checker-qual:${checkerFrameworkVersion}")
+        checkerFramework("org.checkerframework:checker:${checkerFrameworkVersion}")
+    }
+    configurations.all({
+        resolutionStrategy.cacheChangingModulesFor(0, "seconds")
+    })
 }
 
 license {
@@ -130,6 +139,7 @@ tasks {
                     password = System.getenv("JENKINS_PASS")
                 }
             }
+            maven { url = uri("https://oss.sonatype.org/content/repositories/snapshots/") }
         }
     }
 
