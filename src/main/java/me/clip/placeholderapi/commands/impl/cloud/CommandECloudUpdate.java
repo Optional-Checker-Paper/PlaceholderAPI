@@ -58,7 +58,7 @@ public final class CommandECloudUpdate extends PlaceholderCommand {
   }
 
   @Override
-  @SuppressWarnings("optional:methodref.receiver") // stream type refinement : https://github.com/typetools/checker-framework/issues/1345
+  @SuppressWarnings("optional:methodref.receiver") // Stream.filter(isPresent).map(get)
   public void evaluate(@NotNull final PlaceholderAPIPlugin plugin,
       @NotNull final CommandSender sender, @NotNull final String alias,
       @NotNull @Unmodifiable final List<String> params) {

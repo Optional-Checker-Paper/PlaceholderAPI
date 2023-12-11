@@ -349,7 +349,7 @@ public final class LocalExpansionManager implements Listener {
     return true;
   }
 
-  @SuppressWarnings("optional:methodref.receiver") // stream type refinement : https://github.com/typetools/checker-framework/issues/1345
+  @SuppressWarnings("optional:methodref.receiver") // Stream.filter(isPresent).map(get)
   private void registerAll(@NotNull final CommandSender sender) {
     Msg.info("Placeholder expansion registration initializing...");
 
