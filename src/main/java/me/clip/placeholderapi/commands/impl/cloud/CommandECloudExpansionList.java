@@ -135,6 +135,7 @@ public final class CommandECloudExpansionList extends PlaceholderCommand {
         .append("&r");
   }
 
+  @SuppressWarnings("optional:introduce.eliminate") // style-introduce-eliminate
   private static Component getMessage(@NotNull final List<CloudExpansion> expansions,
       final int page, final int limit, @NotNull final String target) {
     final SimpleDateFormat format = PlaceholderAPIPlugin.getDateFormat();
