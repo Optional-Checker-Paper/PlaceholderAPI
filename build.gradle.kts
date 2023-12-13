@@ -50,12 +50,14 @@ java {
 configure<CheckerFrameworkExtension> {
     checkers = listOf(
         "org.checkerframework.checker.optional.OptionalChecker",
+        "org.checkerframework.common.util.report.ReportChecker",
     )
     extraJavacArgs = mutableListOf(
       "-AsuppressWarnings=type.anno.before.modifier,type.anno.before.decl.anno",
       "-AassumePure",
       "-AwarnUnneededSuppressions",
-      "-AassumeAssertionsAreEnabled"
+      "-AassumeAssertionsAreEnabled",
+      "-Astubs=${project.projectDir}/reportoptional.astub"
     )
     excludeTests = true
     val checkerFrameworkVersion = "3.41.1-SNAPSHOT"
@@ -95,6 +97,7 @@ tasks {
 
     withType<JavaCompile> {
         options.encoding = "UTF-8"
+        options.compilerArgs.addAll(listOf("-Xmaxerrs", "99999"))
     }
 
     withType<Javadoc> {
@@ -151,3 +154,4 @@ configurations {
         extendsFrom(compileOnly.get())
     }
 }
+
