@@ -1,0 +1,440 @@
+> Task :createCheckerFrameworkManifest
+
+> Task :compileJava
+/tmp/experiments/optional-paper-counts-repos/PlaceholderAPI/src/main/java/me/clip/placeholderapi/expansion/cloud/CloudExpansion.java:83: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.orElse(T) [METHOD]
+        .orElse(null);
+               ^
+/tmp/experiments/optional-paper-counts-repos/PlaceholderAPI/src/main/java/me/clip/placeholderapi/expansion/cloud/CloudExpansion.java:83: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.orElse(T) [METHOD]
+        .orElse(null);
+        ^
+/tmp/experiments/optional-paper-counts-repos/PlaceholderAPI/src/main/java/me/clip/placeholderapi/configuration/PlaceholderAPIConfig.java:61: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+  public Optional<ExpansionSort> getExpansionSort() {
+                                 ^
+/tmp/experiments/optional-paper-counts-repos/PlaceholderAPI/src/main/java/me/clip/placeholderapi/configuration/PlaceholderAPIConfig.java:61: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+  public Optional<ExpansionSort> getExpansionSort() {
+                                 ^
+/tmp/experiments/optional-paper-counts-repos/PlaceholderAPI/src/main/java/me/clip/placeholderapi/configuration/PlaceholderAPIConfig.java:67: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+      return Optional.of(ExpansionSort.valueOf(option.toUpperCase()));
+                        ^
+/tmp/experiments/optional-paper-counts-repos/PlaceholderAPI/src/main/java/me/clip/placeholderapi/configuration/PlaceholderAPIConfig.java:67: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>of(T) [METHOD]
+      return Optional.of(ExpansionSort.valueOf(option.toUpperCase()));
+                        ^
+/tmp/experiments/optional-paper-counts-repos/PlaceholderAPI/src/main/java/me/clip/placeholderapi/configuration/PlaceholderAPIConfig.java:67: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>of(T) [METHOD]
+      return Optional.of(ExpansionSort.valueOf(option.toUpperCase()));
+                     ^
+/tmp/experiments/optional-paper-counts-repos/PlaceholderAPI/src/main/java/me/clip/placeholderapi/configuration/PlaceholderAPIConfig.java:61: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+  public Optional<ExpansionSort> getExpansionSort() {
+                                 ^
+/tmp/experiments/optional-paper-counts-repos/PlaceholderAPI/src/main/java/me/clip/placeholderapi/configuration/PlaceholderAPIConfig.java:69: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+      return Optional.empty();
+                           ^
+/tmp/experiments/optional-paper-counts-repos/PlaceholderAPI/src/main/java/me/clip/placeholderapi/configuration/PlaceholderAPIConfig.java:69: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>empty() [METHOD]
+      return Optional.empty();
+                           ^
+/tmp/experiments/optional-paper-counts-repos/PlaceholderAPI/src/main/java/me/clip/placeholderapi/configuration/PlaceholderAPIConfig.java:69: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>empty() [METHOD]
+      return Optional.empty();
+                     ^
+/tmp/experiments/optional-paper-counts-repos/PlaceholderAPI/src/main/java/me/clip/placeholderapi/expansion/manager/LocalExpansionManager.java:146: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+  public Optional<PlaceholderExpansion> findExpansionByName(@NotNull final String name) {
+                                        ^
+/tmp/experiments/optional-paper-counts-repos/PlaceholderAPI/src/main/java/me/clip/placeholderapi/expansion/manager/LocalExpansionManager.java:146: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+  public Optional<PlaceholderExpansion> findExpansionByName(@NotNull final String name) {
+                                        ^
+/tmp/experiments/optional-paper-counts-repos/PlaceholderAPI/src/main/java/me/clip/placeholderapi/expansion/manager/LocalExpansionManager.java:157: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+      return Optional.ofNullable(bestMatch);
+                                ^
+/tmp/experiments/optional-paper-counts-repos/PlaceholderAPI/src/main/java/me/clip/placeholderapi/expansion/manager/LocalExpansionManager.java:157: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>ofNullable(T) [METHOD]
+      return Optional.ofNullable(bestMatch);
+                                ^
+/tmp/experiments/optional-paper-counts-repos/PlaceholderAPI/src/main/java/me/clip/placeholderapi/expansion/manager/LocalExpansionManager.java:157: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>ofNullable(T) [METHOD]
+      return Optional.ofNullable(bestMatch);
+                     ^
+/tmp/experiments/optional-paper-counts-repos/PlaceholderAPI/src/main/java/me/clip/placeholderapi/expansion/manager/LocalExpansionManager.java:164: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+  public Optional<PlaceholderExpansion> findExpansionByIdentifier(
+                                        ^
+/tmp/experiments/optional-paper-counts-repos/PlaceholderAPI/src/main/java/me/clip/placeholderapi/expansion/manager/LocalExpansionManager.java:164: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+  public Optional<PlaceholderExpansion> findExpansionByIdentifier(
+                                        ^
+/tmp/experiments/optional-paper-counts-repos/PlaceholderAPI/src/main/java/me/clip/placeholderapi/expansion/manager/LocalExpansionManager.java:166: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+    return Optional.ofNullable(getExpansion(identifier));
+                              ^
+/tmp/experiments/optional-paper-counts-repos/PlaceholderAPI/src/main/java/me/clip/placeholderapi/expansion/manager/LocalExpansionManager.java:166: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>ofNullable(T) [METHOD]
+    return Optional.ofNullable(getExpansion(identifier));
+                              ^
+/tmp/experiments/optional-paper-counts-repos/PlaceholderAPI/src/main/java/me/clip/placeholderapi/expansion/manager/LocalExpansionManager.java:166: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>ofNullable(T) [METHOD]
+    return Optional.ofNullable(getExpansion(identifier));
+                   ^
+/tmp/experiments/optional-paper-counts-repos/PlaceholderAPI/src/main/java/me/clip/placeholderapi/expansion/manager/LocalExpansionManager.java:170: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+  public Optional<PlaceholderExpansion> register(
+                                        ^
+/tmp/experiments/optional-paper-counts-repos/PlaceholderAPI/src/main/java/me/clip/placeholderapi/expansion/manager/LocalExpansionManager.java:170: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+  public Optional<PlaceholderExpansion> register(
+                                        ^
+/tmp/experiments/optional-paper-counts-repos/PlaceholderAPI/src/main/java/me/clip/placeholderapi/expansion/manager/LocalExpansionManager.java:176: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+        return Optional.empty();
+                             ^
+/tmp/experiments/optional-paper-counts-repos/PlaceholderAPI/src/main/java/me/clip/placeholderapi/expansion/manager/LocalExpansionManager.java:176: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>empty() [METHOD]
+        return Optional.empty();
+                             ^
+/tmp/experiments/optional-paper-counts-repos/PlaceholderAPI/src/main/java/me/clip/placeholderapi/expansion/manager/LocalExpansionManager.java:176: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>empty() [METHOD]
+        return Optional.empty();
+                       ^
+/tmp/experiments/optional-paper-counts-repos/PlaceholderAPI/src/main/java/me/clip/placeholderapi/expansion/manager/LocalExpansionManager.java:170: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+  public Optional<PlaceholderExpansion> register(
+                                        ^
+/tmp/experiments/optional-paper-counts-repos/PlaceholderAPI/src/main/java/me/clip/placeholderapi/expansion/manager/LocalExpansionManager.java:187: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+          return Optional.empty();
+                               ^
+/tmp/experiments/optional-paper-counts-repos/PlaceholderAPI/src/main/java/me/clip/placeholderapi/expansion/manager/LocalExpansionManager.java:187: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>empty() [METHOD]
+          return Optional.empty();
+                               ^
+/tmp/experiments/optional-paper-counts-repos/PlaceholderAPI/src/main/java/me/clip/placeholderapi/expansion/manager/LocalExpansionManager.java:187: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>empty() [METHOD]
+          return Optional.empty();
+                         ^
+/tmp/experiments/optional-paper-counts-repos/PlaceholderAPI/src/main/java/me/clip/placeholderapi/expansion/manager/LocalExpansionManager.java:170: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+  public Optional<PlaceholderExpansion> register(
+                                        ^
+/tmp/experiments/optional-paper-counts-repos/PlaceholderAPI/src/main/java/me/clip/placeholderapi/expansion/manager/LocalExpansionManager.java:195: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+        return Optional.empty();
+                             ^
+/tmp/experiments/optional-paper-counts-repos/PlaceholderAPI/src/main/java/me/clip/placeholderapi/expansion/manager/LocalExpansionManager.java:195: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>empty() [METHOD]
+        return Optional.empty();
+                             ^
+/tmp/experiments/optional-paper-counts-repos/PlaceholderAPI/src/main/java/me/clip/placeholderapi/expansion/manager/LocalExpansionManager.java:195: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>empty() [METHOD]
+        return Optional.empty();
+                       ^
+/tmp/experiments/optional-paper-counts-repos/PlaceholderAPI/src/main/java/me/clip/placeholderapi/expansion/manager/LocalExpansionManager.java:170: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+  public Optional<PlaceholderExpansion> register(
+                                        ^
+/tmp/experiments/optional-paper-counts-repos/PlaceholderAPI/src/main/java/me/clip/placeholderapi/expansion/manager/LocalExpansionManager.java:198: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+      return Optional.of(expansion);
+                        ^
+/tmp/experiments/optional-paper-counts-repos/PlaceholderAPI/src/main/java/me/clip/placeholderapi/expansion/manager/LocalExpansionManager.java:198: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>of(T) [METHOD]
+      return Optional.of(expansion);
+                        ^
+/tmp/experiments/optional-paper-counts-repos/PlaceholderAPI/src/main/java/me/clip/placeholderapi/expansion/manager/LocalExpansionManager.java:198: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>of(T) [METHOD]
+      return Optional.of(expansion);
+                     ^
+/tmp/experiments/optional-paper-counts-repos/PlaceholderAPI/src/main/java/me/clip/placeholderapi/expansion/manager/LocalExpansionManager.java:170: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+  public Optional<PlaceholderExpansion> register(
+                                        ^
+/tmp/experiments/optional-paper-counts-repos/PlaceholderAPI/src/main/java/me/clip/placeholderapi/expansion/manager/LocalExpansionManager.java:211: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+    return Optional.empty();
+                         ^
+/tmp/experiments/optional-paper-counts-repos/PlaceholderAPI/src/main/java/me/clip/placeholderapi/expansion/manager/LocalExpansionManager.java:211: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>empty() [METHOD]
+    return Optional.empty();
+                         ^
+/tmp/experiments/optional-paper-counts-repos/PlaceholderAPI/src/main/java/me/clip/placeholderapi/expansion/manager/LocalExpansionManager.java:211: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>empty() [METHOD]
+    return Optional.empty();
+                   ^
+/tmp/experiments/optional-paper-counts-repos/PlaceholderAPI/src/main/java/me/clip/placeholderapi/expansion/manager/LocalExpansionManager.java:310: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+      final Optional<CloudExpansion> cloudExpansionOptional = plugin.getCloudExpansionManager().findCloudExpansionByName(identifier);
+                                     ^
+/tmp/experiments/optional-paper-counts-repos/PlaceholderAPI/src/main/java/me/clip/placeholderapi/expansion/manager/LocalExpansionManager.java:310: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+      final Optional<CloudExpansion> cloudExpansionOptional = plugin.getCloudExpansionManager().findCloudExpansionByName(identifier);
+                                                                                                                        ^
+/tmp/experiments/optional-paper-counts-repos/PlaceholderAPI/src/main/java/me/clip/placeholderapi/expansion/manager/LocalExpansionManager.java:311: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.isPresent() [METHOD]
+      if (cloudExpansionOptional.isPresent()) {
+                                          ^
+/tmp/experiments/optional-paper-counts-repos/PlaceholderAPI/src/main/java/me/clip/placeholderapi/expansion/manager/LocalExpansionManager.java:311: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.isPresent() [METHOD]
+      if (cloudExpansionOptional.isPresent()) {
+                                ^
+/tmp/experiments/optional-paper-counts-repos/PlaceholderAPI/src/main/java/me/clip/placeholderapi/expansion/manager/LocalExpansionManager.java:312: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.get() [METHOD]
+        CloudExpansion cloudExpansion = cloudExpansionOptional.get();
+                                                                  ^
+/tmp/experiments/optional-paper-counts-repos/PlaceholderAPI/src/main/java/me/clip/placeholderapi/expansion/manager/LocalExpansionManager.java:312: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.get() [METHOD]
+        CloudExpansion cloudExpansion = cloudExpansionOptional.get();
+                                                              ^
+/tmp/experiments/optional-paper-counts-repos/PlaceholderAPI/src/main/java/me/clip/placeholderapi/expansion/manager/LocalExpansionManager.java:343: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.ifPresent(java.util.function.Consumer<? super T>) [METHOD]
+          .ifPresent(cloud -> {
+                    ^
+/tmp/experiments/optional-paper-counts-repos/PlaceholderAPI/src/main/java/me/clip/placeholderapi/expansion/manager/LocalExpansionManager.java:343: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.ifPresent(java.util.function.Consumer<? super T>) [METHOD]
+          .ifPresent(cloud -> {
+          ^
+/tmp/experiments/optional-paper-counts-repos/PlaceholderAPI/src/main/java/me/clip/placeholderapi/expansion/manager/LocalExpansionManager.java:369: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.orElse(T) [METHOD]
+          .map(expansion -> plugin.getCloudExpansionManager().findCloudExpansionByName(expansion.getName()).orElse(null))
+                                                                                                                  ^
+/tmp/experiments/optional-paper-counts-repos/PlaceholderAPI/src/main/java/me/clip/placeholderapi/expansion/manager/LocalExpansionManager.java:369: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.orElse(T) [METHOD]
+          .map(expansion -> plugin.getCloudExpansionManager().findCloudExpansionByName(expansion.getName()).orElse(null))
+                                                                                                           ^
+/tmp/experiments/optional-paper-counts-repos/PlaceholderAPI/src/main/java/me/clip/placeholderapi/expansion/manager/CloudExpansionManager.java:157: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.orElse(T) [METHOD]
+            .map(CloudExpansion::shouldUpdate).orElse(false))
+                                                     ^
+/tmp/experiments/optional-paper-counts-repos/PlaceholderAPI/src/main/java/me/clip/placeholderapi/expansion/manager/CloudExpansionManager.java:157: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.orElse(T) [METHOD]
+            .map(CloudExpansion::shouldUpdate).orElse(false))
+                                              ^
+/tmp/experiments/optional-paper-counts-repos/PlaceholderAPI/src/main/java/me/clip/placeholderapi/expansion/manager/CloudExpansionManager.java:157: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<U>map(java.util.function.Function<? super T,? extends U>) [METHOD]
+            .map(CloudExpansion::shouldUpdate).orElse(false))
+                ^
+/tmp/experiments/optional-paper-counts-repos/PlaceholderAPI/src/main/java/me/clip/placeholderapi/expansion/manager/CloudExpansionManager.java:157: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<U>map(java.util.function.Function<? super T,? extends U>) [METHOD]
+            .map(CloudExpansion::shouldUpdate).orElse(false))
+            ^
+/tmp/experiments/optional-paper-counts-repos/PlaceholderAPI/src/main/java/me/clip/placeholderapi/expansion/manager/CloudExpansionManager.java:162: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+  public Optional<CloudExpansion> findCloudExpansionByName(@NotNull final String name) {
+                                  ^
+/tmp/experiments/optional-paper-counts-repos/PlaceholderAPI/src/main/java/me/clip/placeholderapi/expansion/manager/CloudExpansionManager.java:162: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+  public Optional<CloudExpansion> findCloudExpansionByName(@NotNull final String name) {
+                                  ^
+/tmp/experiments/optional-paper-counts-repos/PlaceholderAPI/src/main/java/me/clip/placeholderapi/expansion/manager/CloudExpansionManager.java:163: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+    return Optional.ofNullable(cache.get(toIndexName(name)));
+                              ^
+/tmp/experiments/optional-paper-counts-repos/PlaceholderAPI/src/main/java/me/clip/placeholderapi/expansion/manager/CloudExpansionManager.java:163: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>ofNullable(T) [METHOD]
+    return Optional.ofNullable(cache.get(toIndexName(name)));
+                              ^
+/tmp/experiments/optional-paper-counts-repos/PlaceholderAPI/src/main/java/me/clip/placeholderapi/expansion/manager/CloudExpansionManager.java:163: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>ofNullable(T) [METHOD]
+    return Optional.ofNullable(cache.get(toIndexName(name)));
+                   ^
+/tmp/experiments/optional-paper-counts-repos/PlaceholderAPI/src/main/java/me/clip/placeholderapi/expansion/manager/CloudExpansionManager.java:217: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+                        Optional<PlaceholderExpansion> localOpt =
+                                                       ^
+/tmp/experiments/optional-paper-counts-repos/PlaceholderAPI/src/main/java/me/clip/placeholderapi/expansion/manager/CloudExpansionManager.java:218: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+                            plugin.getLocalExpansionManager().findExpansionByName(name);
+                                                                                 ^
+/tmp/experiments/optional-paper-counts-repos/PlaceholderAPI/src/main/java/me/clip/placeholderapi/expansion/manager/CloudExpansionManager.java:219: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.isPresent() [METHOD]
+                        if (localOpt.isPresent()) {
+                                              ^
+/tmp/experiments/optional-paper-counts-repos/PlaceholderAPI/src/main/java/me/clip/placeholderapi/expansion/manager/CloudExpansionManager.java:219: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.isPresent() [METHOD]
+                        if (localOpt.isPresent()) {
+                                    ^
+/tmp/experiments/optional-paper-counts-repos/PlaceholderAPI/src/main/java/me/clip/placeholderapi/expansion/manager/CloudExpansionManager.java:220: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.get() [METHOD]
+                          PlaceholderExpansion local = localOpt.get();
+                                                                   ^
+/tmp/experiments/optional-paper-counts-repos/PlaceholderAPI/src/main/java/me/clip/placeholderapi/expansion/manager/CloudExpansionManager.java:220: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.get() [METHOD]
+                          PlaceholderExpansion local = localOpt.get();
+                                                               ^
+/tmp/experiments/optional-paper-counts-repos/PlaceholderAPI/src/main/java/me/clip/placeholderapi/expansion/PlaceholderExpansion.java:126: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.orElse(T) [METHOD]
+        .map(it -> it.equals(this)).orElse(false);
+                                          ^
+/tmp/experiments/optional-paper-counts-repos/PlaceholderAPI/src/main/java/me/clip/placeholderapi/expansion/PlaceholderExpansion.java:126: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.orElse(T) [METHOD]
+        .map(it -> it.equals(this)).orElse(false);
+                                   ^
+/tmp/experiments/optional-paper-counts-repos/PlaceholderAPI/src/main/java/me/clip/placeholderapi/expansion/PlaceholderExpansion.java:126: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<U>map(java.util.function.Function<? super T,? extends U>) [METHOD]
+        .map(it -> it.equals(this)).orElse(false);
+            ^
+/tmp/experiments/optional-paper-counts-repos/PlaceholderAPI/src/main/java/me/clip/placeholderapi/expansion/PlaceholderExpansion.java:126: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<U>map(java.util.function.Function<? super T,? extends U>) [METHOD]
+        .map(it -> it.equals(this)).orElse(false);
+        ^
+/tmp/experiments/optional-paper-counts-repos/PlaceholderAPI/src/main/java/me/clip/placeholderapi/util/Format.java:42: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+  public static Optional<List<String>> tablify(@NotNull final Align align,
+                                       ^
+/tmp/experiments/optional-paper-counts-repos/PlaceholderAPI/src/main/java/me/clip/placeholderapi/util/Format.java:42: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+  public static Optional<List<String>> tablify(@NotNull final Align align,
+                                       ^
+/tmp/experiments/optional-paper-counts-repos/PlaceholderAPI/src/main/java/me/clip/placeholderapi/util/Format.java:46: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+        .map(format -> rows.stream()
+            ^
+/tmp/experiments/optional-paper-counts-repos/PlaceholderAPI/src/main/java/me/clip/placeholderapi/util/Format.java:46: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<U>map(java.util.function.Function<? super T,? extends U>) [METHOD]
+        .map(format -> rows.stream()
+            ^
+/tmp/experiments/optional-paper-counts-repos/PlaceholderAPI/src/main/java/me/clip/placeholderapi/util/Format.java:46: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<U>map(java.util.function.Function<? super T,? extends U>) [METHOD]
+        .map(format -> rows.stream()
+        ^
+/tmp/experiments/optional-paper-counts-repos/PlaceholderAPI/src/main/java/me/clip/placeholderapi/util/Format.java:45: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<U>map(java.util.function.Function<? super T,? extends U>) [METHOD]
+        .map(spacing -> buildFormat(align, spacing))
+            ^
+/tmp/experiments/optional-paper-counts-repos/PlaceholderAPI/src/main/java/me/clip/placeholderapi/util/Format.java:45: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<U>map(java.util.function.Function<? super T,? extends U>) [METHOD]
+        .map(spacing -> buildFormat(align, spacing))
+        ^
+/tmp/experiments/optional-paper-counts-repos/PlaceholderAPI/src/main/java/me/clip/placeholderapi/util/Format.java:60: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+  private static Optional<int[]> findSpacing(@NotNull final List<List<String>> rows) {
+                                 ^
+/tmp/experiments/optional-paper-counts-repos/PlaceholderAPI/src/main/java/me/clip/placeholderapi/util/Format.java:60: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+  private static Optional<int[]> findSpacing(@NotNull final List<List<String>> rows) {
+                                 ^
+/tmp/experiments/optional-paper-counts-repos/PlaceholderAPI/src/main/java/me/clip/placeholderapi/util/Format.java:63: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+        .reduce((l, r) -> range(0, min(l.length, r.length)).map(i -> max(l[i], r[i])).toArray());
+               ^
+/tmp/experiments/optional-paper-counts-repos/PlaceholderAPI/src/main/java/me/clip/placeholderapi/PlaceholderAPI.java:230: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.isPresent() [METHOD]
+        .findExpansionByIdentifier(identifier).isPresent();
+                                                        ^
+/tmp/experiments/optional-paper-counts-repos/PlaceholderAPI/src/main/java/me/clip/placeholderapi/PlaceholderAPI.java:230: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.isPresent() [METHOD]
+        .findExpansionByIdentifier(identifier).isPresent();
+                                              ^
+/tmp/experiments/optional-paper-counts-repos/PlaceholderAPI/src/main/java/me/clip/placeholderapi/commands/impl/local/CommandExpansionRegister.java:79: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+      final Optional<PlaceholderExpansion> expansion = manager.register(clazz);
+                                           ^
+/tmp/experiments/optional-paper-counts-repos/PlaceholderAPI/src/main/java/me/clip/placeholderapi/commands/impl/local/CommandExpansionRegister.java:79: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+      final Optional<PlaceholderExpansion> expansion = manager.register(clazz);
+                                                                       ^
+/tmp/experiments/optional-paper-counts-repos/PlaceholderAPI/src/main/java/me/clip/placeholderapi/commands/impl/local/CommandExpansionRegister.java:80: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.isPresent() [METHOD]
+      if (!expansion.isPresent()) {
+                              ^
+/tmp/experiments/optional-paper-counts-repos/PlaceholderAPI/src/main/java/me/clip/placeholderapi/commands/impl/local/CommandExpansionRegister.java:80: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.isPresent() [METHOD]
+      if (!expansion.isPresent()) {
+                    ^
+/tmp/experiments/optional-paper-counts-repos/PlaceholderAPI/src/main/java/me/clip/placeholderapi/commands/impl/local/CommandExpansionRegister.java:87: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.get() [METHOD]
+          "&aSuccessfully registered expansion: &f" + expansion.get().getName());
+                                                                   ^
+/tmp/experiments/optional-paper-counts-repos/PlaceholderAPI/src/main/java/me/clip/placeholderapi/commands/impl/local/CommandExpansionRegister.java:87: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.get() [METHOD]
+          "&aSuccessfully registered expansion: &f" + expansion.get().getName());
+                                                               ^
+/tmp/experiments/optional-paper-counts-repos/PlaceholderAPI/src/main/java/me/clip/placeholderapi/commands/impl/local/CommandParse.java:189: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.orElse(T) [METHOD]
+        .orElse(null);
+               ^
+/tmp/experiments/optional-paper-counts-repos/PlaceholderAPI/src/main/java/me/clip/placeholderapi/commands/impl/local/CommandParse.java:189: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.orElse(T) [METHOD]
+        .orElse(null);
+        ^
+/tmp/experiments/optional-paper-counts-repos/PlaceholderAPI/src/main/java/me/clip/placeholderapi/commands/impl/local/CommandParse.java:199: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.ifPresent(java.util.function.Consumer<? super T>) [METHOD]
+        .ifPresent(cloud -> possible.addAll(cloud.getPlaceholders()));
+                  ^
+/tmp/experiments/optional-paper-counts-repos/PlaceholderAPI/src/main/java/me/clip/placeholderapi/commands/impl/local/CommandParse.java:199: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.ifPresent(java.util.function.Consumer<? super T>) [METHOD]
+        .ifPresent(cloud -> possible.addAll(cloud.getPlaceholders()));
+        ^
+/tmp/experiments/optional-paper-counts-repos/PlaceholderAPI/src/main/java/me/clip/placeholderapi/commands/impl/local/CommandDump.java:144: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.orElse(T) [METHOD]
+        .orElse(0);
+               ^
+/tmp/experiments/optional-paper-counts-repos/PlaceholderAPI/src/main/java/me/clip/placeholderapi/commands/impl/local/CommandDump.java:144: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.orElse(T) [METHOD]
+        .orElse(0);
+        ^
+/tmp/experiments/optional-paper-counts-repos/PlaceholderAPI/src/main/java/me/clip/placeholderapi/commands/impl/local/CommandDump.java:198: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.orElse(T) [METHOD]
+        .orElse(0);
+               ^
+/tmp/experiments/optional-paper-counts-repos/PlaceholderAPI/src/main/java/me/clip/placeholderapi/commands/impl/local/CommandDump.java:198: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.orElse(T) [METHOD]
+        .orElse(0);
+        ^
+/tmp/experiments/optional-paper-counts-repos/PlaceholderAPI/src/main/java/me/clip/placeholderapi/commands/impl/local/CommandExpansionUnregister.java:50: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+    final Optional<PlaceholderExpansion> expansion = plugin.getLocalExpansionManager()
+                                         ^
+/tmp/experiments/optional-paper-counts-repos/PlaceholderAPI/src/main/java/me/clip/placeholderapi/commands/impl/local/CommandExpansionUnregister.java:51: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+        .findExpansionByName(params.get(0));
+                            ^
+/tmp/experiments/optional-paper-counts-repos/PlaceholderAPI/src/main/java/me/clip/placeholderapi/commands/impl/local/CommandExpansionUnregister.java:52: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.isPresent() [METHOD]
+    if (!expansion.isPresent()) {
+                            ^
+/tmp/experiments/optional-paper-counts-repos/PlaceholderAPI/src/main/java/me/clip/placeholderapi/commands/impl/local/CommandExpansionUnregister.java:52: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.isPresent() [METHOD]
+    if (!expansion.isPresent()) {
+                  ^
+/tmp/experiments/optional-paper-counts-repos/PlaceholderAPI/src/main/java/me/clip/placeholderapi/commands/impl/local/CommandExpansionUnregister.java:58: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.get() [METHOD]
+    final String message = !expansion.get().unregister() ?
+                                         ^
+/tmp/experiments/optional-paper-counts-repos/PlaceholderAPI/src/main/java/me/clip/placeholderapi/commands/impl/local/CommandExpansionUnregister.java:58: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.get() [METHOD]
+    final String message = !expansion.get().unregister() ?
+                                     ^
+/tmp/experiments/optional-paper-counts-repos/PlaceholderAPI/src/main/java/me/clip/placeholderapi/commands/impl/local/CommandExpansionUnregister.java:62: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.get() [METHOD]
+    Msg.msg(sender, message + expansion.get().getName());
+                                           ^
+/tmp/experiments/optional-paper-counts-repos/PlaceholderAPI/src/main/java/me/clip/placeholderapi/commands/impl/local/CommandExpansionUnregister.java:62: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.get() [METHOD]
+    Msg.msg(sender, message + expansion.get().getName());
+                                       ^
+/tmp/experiments/optional-paper-counts-repos/PlaceholderAPI/src/main/java/me/clip/placeholderapi/commands/impl/local/CommandInfo.java:50: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.orElse(T) [METHOD]
+        .findExpansionByIdentifier(params.get(0)).orElse(null);
+                                                        ^
+/tmp/experiments/optional-paper-counts-repos/PlaceholderAPI/src/main/java/me/clip/placeholderapi/commands/impl/local/CommandInfo.java:50: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.orElse(T) [METHOD]
+        .findExpansionByIdentifier(params.get(0)).orElse(null);
+                                                 ^
+/tmp/experiments/optional-paper-counts-repos/PlaceholderAPI/src/main/java/me/clip/placeholderapi/commands/impl/cloud/CommandECloudExpansionList.java:76: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.orElse(T) [METHOD]
+          .orElse("Unknown");
+                 ^
+/tmp/experiments/optional-paper-counts-repos/PlaceholderAPI/src/main/java/me/clip/placeholderapi/commands/impl/cloud/CommandECloudExpansionList.java:76: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.orElse(T) [METHOD]
+          .orElse("Unknown");
+          ^
+/tmp/experiments/optional-paper-counts-repos/PlaceholderAPI/src/main/java/me/clip/placeholderapi/commands/impl/cloud/CommandECloudExpansionList.java:75: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<U>map(java.util.function.Function<? super T,? extends U>) [METHOD]
+          .findExpansionByName(expansion.getName()).map(PlaceholderExpansion::getVersion)
+                                                       ^
+/tmp/experiments/optional-paper-counts-repos/PlaceholderAPI/src/main/java/me/clip/placeholderapi/commands/impl/cloud/CommandECloudExpansionList.java:75: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<U>map(java.util.function.Function<? super T,? extends U>) [METHOD]
+          .findExpansionByName(expansion.getName()).map(PlaceholderExpansion::getVersion)
+                                                   ^
+/tmp/experiments/optional-paper-counts-repos/PlaceholderAPI/src/main/java/me/clip/placeholderapi/commands/impl/cloud/CommandECloudExpansionList.java:178: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.ifPresent(java.util.function.Consumer<? super T>) [METHOD]
+              .ifPresent(description -> hoverText.append(newline()).append(newline())
+                        ^
+/tmp/experiments/optional-paper-counts-repos/PlaceholderAPI/src/main/java/me/clip/placeholderapi/commands/impl/cloud/CommandECloudExpansionList.java:178: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.ifPresent(java.util.function.Consumer<? super T>) [METHOD]
+              .ifPresent(description -> hoverText.append(newline()).append(newline())
+              ^
+/tmp/experiments/optional-paper-counts-repos/PlaceholderAPI/src/main/java/me/clip/placeholderapi/commands/impl/cloud/CommandECloudExpansionList.java:177: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.filter(java.util.function.Predicate<? super T>) [METHOD]
+              .filter(description -> !description.isEmpty())
+                     ^
+/tmp/experiments/optional-paper-counts-repos/PlaceholderAPI/src/main/java/me/clip/placeholderapi/commands/impl/cloud/CommandECloudExpansionList.java:177: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.filter(java.util.function.Predicate<? super T>) [METHOD]
+              .filter(description -> !description.isEmpty())
+              ^
+/tmp/experiments/optional-paper-counts-repos/PlaceholderAPI/src/main/java/me/clip/placeholderapi/commands/impl/cloud/CommandECloudExpansionList.java:176: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>ofNullable(T) [METHOD]
+      Optional.ofNullable(expansion.getDescription())
+                         ^
+/tmp/experiments/optional-paper-counts-repos/PlaceholderAPI/src/main/java/me/clip/placeholderapi/commands/impl/cloud/CommandECloudExpansionList.java:176: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>ofNullable(T) [METHOD]
+      Optional.ofNullable(expansion.getDescription())
+              ^
+/tmp/experiments/optional-paper-counts-repos/PlaceholderAPI/src/main/java/me/clip/placeholderapi/commands/impl/cloud/CommandECloudExpansionList.java:236: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.orElse(T) [METHOD]
+        .orElse(Collections.emptyList());
+               ^
+/tmp/experiments/optional-paper-counts-repos/PlaceholderAPI/src/main/java/me/clip/placeholderapi/commands/impl/cloud/CommandECloudExpansionList.java:236: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.orElse(T) [METHOD]
+        .orElse(Collections.emptyList());
+        ^
+/tmp/experiments/optional-paper-counts-repos/PlaceholderAPI/src/main/java/me/clip/placeholderapi/commands/impl/cloud/CommandECloudExpansionList.java:267: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.orElse(T) [METHOD]
+        .sort(plugin.getPlaceholderAPIConfig().getExpansionSort().orElse(ExpansionSort.LATEST));
+                                                                        ^
+/tmp/experiments/optional-paper-counts-repos/PlaceholderAPI/src/main/java/me/clip/placeholderapi/commands/impl/cloud/CommandECloudExpansionList.java:267: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.orElse(T) [METHOD]
+        .sort(plugin.getPlaceholderAPIConfig().getExpansionSort().orElse(ExpansionSort.LATEST));
+                                                                 ^
+/tmp/experiments/optional-paper-counts-repos/PlaceholderAPI/src/main/java/me/clip/placeholderapi/commands/impl/cloud/CommandECloudExpansionInfo.java:51: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.orElse(T) [METHOD]
+        .findCloudExpansionByName(params.get(0)).orElse(null);
+                                                       ^
+/tmp/experiments/optional-paper-counts-repos/PlaceholderAPI/src/main/java/me/clip/placeholderapi/commands/impl/cloud/CommandECloudExpansionInfo.java:51: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.orElse(T) [METHOD]
+        .findCloudExpansionByName(params.get(0)).orElse(null);
+                                                ^
+/tmp/experiments/optional-paper-counts-repos/PlaceholderAPI/src/main/java/me/clip/placeholderapi/commands/impl/cloud/CommandECloudExpansionInfo.java:120: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+    final Optional<CloudExpansion> expansion = plugin.getCloudExpansionManager()
+                                   ^
+/tmp/experiments/optional-paper-counts-repos/PlaceholderAPI/src/main/java/me/clip/placeholderapi/commands/impl/cloud/CommandECloudExpansionInfo.java:121: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+        .findCloudExpansionByName(params.get(0));
+                                 ^
+/tmp/experiments/optional-paper-counts-repos/PlaceholderAPI/src/main/java/me/clip/placeholderapi/commands/impl/cloud/CommandECloudExpansionInfo.java:122: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.isPresent() [METHOD]
+    if (!expansion.isPresent()) {
+                            ^
+/tmp/experiments/optional-paper-counts-repos/PlaceholderAPI/src/main/java/me/clip/placeholderapi/commands/impl/cloud/CommandECloudExpansionInfo.java:122: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.isPresent() [METHOD]
+    if (!expansion.isPresent()) {
+                  ^
+/tmp/experiments/optional-paper-counts-repos/PlaceholderAPI/src/main/java/me/clip/placeholderapi/commands/impl/cloud/CommandECloudExpansionInfo.java:126: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.get() [METHOD]
+    suggestByParameter(expansion.get().getAvailableVersions().stream(), suggestions, params.get(1));
+                                    ^
+/tmp/experiments/optional-paper-counts-repos/PlaceholderAPI/src/main/java/me/clip/placeholderapi/commands/impl/cloud/CommandECloudExpansionInfo.java:126: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.get() [METHOD]
+    suggestByParameter(expansion.get().getAvailableVersions().stream(), suggestions, params.get(1));
+                                ^
+/tmp/experiments/optional-paper-counts-repos/PlaceholderAPI/src/main/java/me/clip/placeholderapi/commands/impl/cloud/CommandECloudDownload.java:68: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.orElse(T) [METHOD]
+        .findCloudExpansionByName(params.get(0)).orElse(null);
+                                                       ^
+/tmp/experiments/optional-paper-counts-repos/PlaceholderAPI/src/main/java/me/clip/placeholderapi/commands/impl/cloud/CommandECloudDownload.java:68: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.orElse(T) [METHOD]
+        .findCloudExpansionByName(params.get(0)).orElse(null);
+                                                ^
+/tmp/experiments/optional-paper-counts-repos/PlaceholderAPI/src/main/java/me/clip/placeholderapi/commands/impl/cloud/CommandECloudDownload.java:130: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+    final Optional<CloudExpansion> expansion = plugin.getCloudExpansionManager()
+                                   ^
+/tmp/experiments/optional-paper-counts-repos/PlaceholderAPI/src/main/java/me/clip/placeholderapi/commands/impl/cloud/CommandECloudDownload.java:131: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+        .findCloudExpansionByName(params.get(0));
+                                 ^
+/tmp/experiments/optional-paper-counts-repos/PlaceholderAPI/src/main/java/me/clip/placeholderapi/commands/impl/cloud/CommandECloudDownload.java:132: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.isPresent() [METHOD]
+    if (!expansion.isPresent()) {
+                            ^
+/tmp/experiments/optional-paper-counts-repos/PlaceholderAPI/src/main/java/me/clip/placeholderapi/commands/impl/cloud/CommandECloudDownload.java:132: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.isPresent() [METHOD]
+    if (!expansion.isPresent()) {
+                  ^
+/tmp/experiments/optional-paper-counts-repos/PlaceholderAPI/src/main/java/me/clip/placeholderapi/commands/impl/cloud/CommandECloudDownload.java:136: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.get() [METHOD]
+    suggestByParameter(expansion.get().getAvailableVersions().stream(), suggestions, params.get(1));
+                                    ^
+/tmp/experiments/optional-paper-counts-repos/PlaceholderAPI/src/main/java/me/clip/placeholderapi/commands/impl/cloud/CommandECloudDownload.java:136: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.get() [METHOD]
+    suggestByParameter(expansion.get().getAvailableVersions().stream(), suggestions, params.get(1));
+                                ^
+/tmp/experiments/optional-paper-counts-repos/PlaceholderAPI/src/main/java/me/clip/placeholderapi/commands/impl/cloud/CommandECloudUpdate.java:78: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.ifPresent(java.util.function.Consumer<? super T>) [METHOD]
+          .ifPresent(expansions::add);
+                    ^
+/tmp/experiments/optional-paper-counts-repos/PlaceholderAPI/src/main/java/me/clip/placeholderapi/commands/impl/cloud/CommandECloudUpdate.java:78: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.ifPresent(java.util.function.Consumer<? super T>) [METHOD]
+          .ifPresent(expansions::add);
+          ^
+/tmp/experiments/optional-paper-counts-repos/PlaceholderAPI/src/main/java/me/clip/placeholderapi/commands/impl/cloud/CommandECloudExpansionPlaceholders.java:52: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.orElse(T) [METHOD]
+        .findCloudExpansionByName(params.get(0)).orElse(null);
+                                                       ^
+/tmp/experiments/optional-paper-counts-repos/PlaceholderAPI/src/main/java/me/clip/placeholderapi/commands/impl/cloud/CommandECloudExpansionPlaceholders.java:52: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.orElse(T) [METHOD]
+        .findCloudExpansionByName(params.get(0)).orElse(null);
+                                                ^
+Note: /tmp/experiments/optional-paper-counts-repos/PlaceholderAPI/src/main/java/me/clip/placeholderapi/commands/impl/local/CommandParse.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+141 warnings
+
+> Task :processResources
+> Task :classes
+> Task :jar
+> Task :javadoc
+> Task :javadocJar
+> Task :sourcesJar
+> Task :assemble
+
+BUILD SUCCESSFUL in 6s
+7 actionable tasks: 7 executed
